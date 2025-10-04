@@ -7,12 +7,12 @@ let pedidos = [
 ];
 let proximoId = 3;
 
-// GET /pedidos
+
 router.get('/', (req, res) => {
     res.status(200).json(pedidos);
 });
 
-// GET /pedidos/:id
+
 router.get('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const pedido = pedidos.find(p => p.id === id);
@@ -23,7 +23,7 @@ router.get('/:id', (req, res) => {
     }
 });
 
-// POST /pedidos
+
 router.post('/', (req, res) => {
     const { clienteId, jogoId, valor } = req.body;
     if (!clienteId || !jogoId || !valor) {
@@ -34,7 +34,6 @@ router.post('/', (req, res) => {
     res.status(201).json(novoPedido);
 });
 
-// PUT /pedidos/:id
 router.put('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const { clienteId, jogoId, dataPedido, valor } = req.body;
@@ -49,7 +48,7 @@ router.put('/:id', (req, res) => {
     res.status(200).json(pedidos[index]);
 });
 
-// DELETE /pedidos/:id
+
 router.delete('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const index = pedidos.findIndex(p => p.id === id);
