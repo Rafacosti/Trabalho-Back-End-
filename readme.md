@@ -1,27 +1,27 @@
 # API de Gerenciamento - Loja de Games 
 # Descrição do Projetos
 
-[cite_start]Este projeto consiste no desenvolvimento de uma API REST completa como parte da avaliação A1 da disciplina de **Construção de Backend (ADS28)**, ministrada pelo Prof. Gustavo Clay. [cite_start]O objetivo principal foi aplicar os conceitos de API Rest, rotas, métodos HTTP e colaboração em equipe utilizando Node.js, Express e Git[cite: 3, 4].
+Este projeto consiste no desenvolvimento de uma API REST completa como parte da avaliação A1 da disciplina de **Construção de Backend (ADS28)**, ministrada pelo Prof. Gustavo Clay. O objetivo principal foi aplicar os conceitos de API Rest, rotas, métodos HTTP e colaboração em equipe utilizando Node.js, Express e Git.
 
-[cite_start]A API simula o sistema de gerenciamento de uma loja de games, permitindo o controle sobre cinco recursos distintos e logicamente relacionados: Jogos, Desenvolvedoras, Plataformas, Clientes e Pedidos[cite: 21].
+A API simula o sistema de gerenciamento de uma loja de games, permitindo o controle sobre cinco recursos distintos e logicamente relacionados: Jogos, Desenvolvedoras, Plataformas, Clientes e Pedidos.
 
 ---
 
 ## 2. Tecnologias e Conceitos Aplicados
 
-* [cite_start]**Node.js & Express:** A API foi construída sobre o ecossistema Node.js, utilizando o framework Express para a criação do servidor e o gerenciamento das rotas[cite: 3].
-* [cite_start]**Princípios REST:** Foram seguidas as convenções REST para a criação dos endpoints[cite: 11], incluindo:
-    * [cite_start]**Métodos HTTP** corretos para cada operação (`GET`, `POST`, `PUT`, `DELETE`)[cite: 12].
-    * [cite_start]**URLs semânticas** para identificar os recursos (ex: `/jogos`, `/jogos/:id`)[cite: 13].
-    * [cite_start]Uso de **Status Codes** adequados para indicar o resultado das operações (ex: 200, 201, 404, 400)[cite: 14].
-* [cite_start]**Estrutura de Dados:** As requisições e respostas foram estruturadas em formato **JSON**[cite: 15]. [cite_start]Os dados foram armazenados em memória (arrays)[cite: 16], sem a necessidade de um banco de dados.
-* [cite_start]**Validação:** Foi implementada uma validação básica de campos obrigatórios para as operações de criação e atualização[cite: 17].
+**Node.js & Express:** A API foi construída sobre o ecossistema Node.js, utilizando o framework Express para a criação do servidor e o gerenciamento das rotas.
+**Princípios REST:** Foram seguidas as convenções REST para a criação dos endpoints, incluindo:
+**Métodos HTTP** corretos para cada operação (`GET`, `POST`, `PUT`, `DELETE`).
+**URLs semânticas** para identificar os recursos (ex: `/jogos`, `/jogos/:id`).
+*Uso de **Status Codes** adequados para indicar o resultado das operações (ex: 200, 201, 404, 400).
+* **Estrutura de Dados:** As requisições e respostas foram estruturadas em formato **JSON**. Os dados foram armazenados em memória (arrays) sem a necessidade de um banco de dados.
+* **Validação:** Foi implementada uma validação básica de campos obrigatórios para as operações de criação e atualização.
 
 ---
 
 ## 3. Instruções de Instalação e Execução
 
-[cite_start]Para executar este projeto em sua máquina local, siga os passos abaixo[cite: 34].
+Para executar este projeto em sua máquina local, siga os passos abaixo.
 
 **Pré-requisitos:**
 * Node.js (versão LTS)
@@ -56,7 +56,7 @@ O servidor estará rodando em `http://localhost:3000`.
 
 ## 4. Endpoints da API
 
-[cite_start]A seguir, a lista completa dos 25 endpoints implementados no projeto, com exemplos de requisição e resposta[cite: 35].
+A seguir, a lista completa dos 25 endpoints implementados no projeto, com exemplos de requisição e resposta.
 
 ### Recurso: Jogos (`/jogos`)
 * `GET /jogos`: Lista todos os jogos.
@@ -102,8 +102,8 @@ O servidor estará rodando em `http://localhost:3000`.
 
 ## 5. Ferramentas de Desenvolvimento e Colaboração
 
-**Git & GitHub:** O versionamento do código foi realizado com o Git e a colaboração da equipe foi gerenciada através de um repositório único no GitHub[cite: 7, 37]. [cite_start]Foram criadas **Issues detalhadas** para cada etapa do desenvolvimento [cite: 38][cite_start], atribuídas aos membros da equipe para organizar o fluxo de trabalho[cite: 43].
- **Postman:** Foi utilizada a ferramenta Postman para testar todos os endpoints da API. [cite_start]Uma **collection completa** foi criada, contendo exemplos de requisições [cite: 23, 24][cite_start], e o arquivo de exportação `.json` foi incluído neste repositório, conforme solicitado[cite: 25].
+**Git & GitHub:** O versionamento do código foi realizado com o Git e a colaboração da equipe foi gerenciada através de um repositório único no GitHub. Foram criadas **Issues detalhadas** para cada etapa do desenvolvimento , atribuídas aos membros da equipe para organizar o fluxo de trabalho.
+ **Postman:** Foi utilizada a ferramenta Postman para testar todos os endpoints da API. Uma **collection completa** foi criada, contendo exemplos de requisições  e o arquivo de exportação `.json` foi incluído neste repositório, conforme solicitado.
 
 ---
 
