@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "c77712ca-64e2-4b4d-b2a9-03da638fcfa2",
+		"name": "jogos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47515176",
+		"_collection_link": "https://www.postman.com/phprojetos-8094994/trabalho-backend/collection/c76h22b/jogos?action=share&source=collection_link&creator=47515176"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/jogos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/jogos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"The Witcher 3: Wild Hunt\",\r\n  \"ano\": 2015,\r\n  \"desenvolvedoraId\": 3,\r\n  \"plataformaId\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/jogos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"The Witcher 3: Game of the Year Edition\",\r\n  \"ano\": 2016,\r\n  \"desenvolvedoraId\": 3,\r\n  \"plataformaId\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/jogos/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogos",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"The Witcher 3: Game of the Year Edition\",\r\n  \"ano\": 2016,\r\n  \"desenvolvedoraId\": 3,\r\n  \"plataformaId\": 1\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/jogos/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"jogos",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

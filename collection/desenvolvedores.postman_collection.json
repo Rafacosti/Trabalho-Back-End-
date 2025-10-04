@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "d1139a3a-8989-4436-b721-abe367f6669b",
+		"name": "desenvolvedores",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47515176",
+		"_collection_link": "https://www.postman.com/phprojetos-8094994/trabalho-backend/collection/83ndkik/desenvolvedores?action=share&source=collection_link&creator=47515176"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Carlos Souza\",\r\n  \"email\": \"carlos@email.com\",\r\n  \"dataNascimento\": \"1992-07-10\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/desenvolvedoras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"desenvolvedoras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/desenvolvedoras/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"desenvolvedoras",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"CD Projekt Red\",\r\n  \"paisDeOrigem\": \"Polônia\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/desenvolvedoras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"desenvolvedoras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Rockstar North\",\r\n  \"paisDeOrigem\": \"Reino Unido\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/desenvolvedoras/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"desenvolvedoras",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nome\": \"Rockstar North\",\r\n  \"paisDeOrigem\": \"Reino Unido\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:3000/desenvolvedoras/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"desenvolvedoras",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
