@@ -14,7 +14,7 @@ const plataformasRouter = require('./routes/plataforma');
 const clientesRouter = require('./routes/clientes');
 const pedidosRouter = require('./routes/pedidos');
 
-// Utilizando as rotas com suas URLs base
+
 app.use('/jogos', jogosRouter);
 app.use('/desenvolvedoras', desenvolvedorasRouter);
 app.use('/plataformas', plataformasRouter);
