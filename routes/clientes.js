@@ -7,12 +7,12 @@ let clientes = [
 ];
 let proximoId = 3;
 
-// GET /clientes
+
 router.get('/', (req, res) => {
     res.status(200).json(clientes);
 });
 
-// GET /clientes/:id
+
 router.get('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const cliente = clientes.find(c => c.id === id);
@@ -23,7 +23,7 @@ router.get('/:id', (req, res) => {
     }
 });
 
-// POST /clientes
+
 router.post('/', (req, res) => {
     const { nome, email, dataNascimento } = req.body;
     if (!nome || !email) {
@@ -34,7 +34,7 @@ router.post('/', (req, res) => {
     res.status(201).json(novoCliente);
 });
 
-// PUT /clientes/:id
+
 router.put('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const { nome, email, dataNascimento } = req.body;
@@ -49,7 +49,7 @@ router.put('/:id', (req, res) => {
     res.status(200).json(clientes[index]);
 });
 
-// DELETE /clientes/:id
+
 router.delete('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const index = clientes.findIndex(c => c.id === id);
