@@ -105,15 +105,3 @@ A seguir, a lista completa dos 25 endpoints implementados no projeto, com exempl
 **Git & GitHub:** O versionamento do código foi realizado com o Git e a colaboração da equipe foi gerenciada através de um repositório único no GitHub. Foram criadas **Issues detalhadas** para cada etapa do desenvolvimento , atribuídas aos membros da equipe para organizar o fluxo de trabalho.
  **Postman:** Foi utilizada a ferramenta Postman para testar todos os endpoints da API. Uma **collection completa** foi criada, contendo exemplos de requisições  e o arquivo de exportação `.json` foi incluído neste repositório, conforme solicitado.
 
----
-
-## 6. Equipe e Contribuições
-
-Este projeto foi desenvolvido de forma colaborativa pelos seguintes integrantes
-
-
-João Pedro F. - 23214290072
-Paulo Henrique - 23214290102
-Rafael Costa - 23214290127
-Roger Jorge F. - 23214290121
-Thiago Izidro - 23214290062
